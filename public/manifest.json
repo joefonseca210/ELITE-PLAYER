@@ -1,0 +1,58 @@
+{
+  "name": "Elite Player - IPTV Streaming",
+  "short_name": "Elite Player",
+  "description": "Premium IPTV streaming with thousands of live TV channels, movies, and TV shows.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "orientation": "any",
+  "categories": ["entertainment", "video"],
+  "icons": [
+    {
+      "src": "/assets/elite-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/elite-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/elite-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/elite-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Channels",
+      "short_name": "Channels",
+      "url": "/channels",
+      "description": "Browse your IPTV channels"
+    },
+    {
+      "name": "TV Guide",
+      "short_name": "EPG",
+      "url": "/epg",
+      "description": "View the electronic program guide"
+    },
+    {
+      "name": "Setup",
+      "short_name": "Setup",
+      "url": "/setup",
+      "description": "Import your M3U playlist"
+    }
+  ]
+}
